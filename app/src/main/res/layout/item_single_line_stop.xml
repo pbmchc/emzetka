@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/schedule_rect"
+    android:paddingLeft="8dp"
+    android:paddingStart="8dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingEnd="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/emzetka_list_stop"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/imageStop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/busStopName"
+        android:textSize="14sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/imageStop"
+        android:layout_toEndOf="@id/imageStop"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minutes_abbr"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/minLabel"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/busStopTime"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/minLabel"
+        android:layout_toLeftOf="@id/minLabel"/>
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/clockImage"
+        android:layout_toStartOf="@id/busStopTime"
+        android:layout_toLeftOf="@id/busStopTime"
+        android:background="@drawable/ic_access_time_24dp"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

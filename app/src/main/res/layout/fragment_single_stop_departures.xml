@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pbmchc.emzetka.fragments.SingleStopDeparturesFragment"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+    <include layout="@layout/progress_bar_layout" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/noUpcomingDeparturesLayout"
+        android:gravity="center"
+        android:visibility="gone">
+        <TextView
+            android:drawableTop="@drawable/emzetka_message"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_height="wrap_content"
+            android:id="@+id/emptyText"
+            android:text="@string/single_stop_no_departures_message"
+            android:alpha="0.5"/>
+    </FrameLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvClosest">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

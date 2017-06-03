@@ -1,0 +1,43 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.pbmchc.emzetka.fragments.MainStopsFragment"
+    android:background="@android:color/white">
+        <include layout="@layout/progress_bar_layout" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:hint="@string/find_lines_destination_placeholder"
+                    android:id="@+id/searchBox"
+                    android:textSize="16sp"
+                    android:drawableStart="@drawable/search_small_textview"
+                    android:drawableLeft="@drawable/search_small_textview"
+                    android:drawablePadding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp" />
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stopsRv">
+                </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+        <android.support.design.widget.FloatingActionButton
+            android:elevation="2dp"
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:useCompatPadding="true"
+            android:src="@drawable/gps_icon"
+            app:layout_behavior="com.pbmchc.emzetka.animation.ScrollAwareBehaviourAnimation" />
+</android.support.design.widget.CoordinatorLayout>

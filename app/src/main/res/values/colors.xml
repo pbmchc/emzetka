@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3D5C99</color>
+    <color name="colorPrimaryDark">#365187</color>
+    <color name="colorAccent">#FF7940</color>
+    <color name="colorAccentGray">#F2F2F2</color>
+    <color name="colorAccentFaded">#50FF7940</color>
+    <color name="darkAccent">#3D5C99</color>
+    <color name="textColorDark">#555</color>
+    <color name="departureGray">#FDFDFD</color>
+    <color name="indicator_selected">#FF7940</color>
+    <color name="indicator_unselected">#AAA</color>
+    <color name="statusBarActionMode">#3D5C99</color>
+    <color name="colorPrimaryActionMode">#4263a5</color>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_map"
+        android:orderInCategory="2"
+        android:title="@string/action_map"
+        android:icon="@drawable/ic_map_24dp"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+    <item
+        android:id="@+id/action_change"
+        android:orderInCategory="2"
+        android:title="@string/action_change_stop"
+        android:icon="@drawable/ic_swap_vert_24dp"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+    <item
+        android:id="@+id/action_line"
+        android:orderInCategory="2"
+        android:title="@string/action_view_next_stops"
+        android:icon="@drawable/lines_top"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+    <item
+        android:id="@+id/action_legend"
+        android:orderInCategory="3"
+        android:title="@string/action_view_legend"
+        android:icon="@drawable/ic_event_note_black_24dp"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+</menu>

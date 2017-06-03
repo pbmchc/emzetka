@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/schedule_rect"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/busLineName"
+        android:layout_centerVertical="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:background="@drawable/line_rect" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/busLineDirection"
+        android:layout_marginStart="16sp"
+        android:layout_marginLeft="16sp"
+        android:textSize="14sp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/busLineName"
+        android:layout_toRightOf="@id/busLineName"/>
+</RelativeLayout>

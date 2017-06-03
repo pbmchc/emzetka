@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pbmchc.emzetka.fragments.MainFindLinesResultsFragment"
+    android:orientation="vertical">
+    <include layout="@layout/progress_bar_layout" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/find_lines_results_label"
+        android:textAllCaps="true"
+        android:padding="@dimen/activity_horizontal_margin" />
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/filteredLinesRv">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Emzetka</string>
+    <string name="title_activity_settings">O aplikacji</string>
+    <string name="title_activity_single_stop">Przystanek</string>
+    <string name="title_activity_single_line">Linia</string>
+    <string name="title_activity_single_line_map">Mapa linii</string>
+    <string name="title_activity_schedule">Rozkład</string>
+    <string name="title_activity_near_stops_map">Najbliższe przystanki</string>
+
+    <string name="title_fragment_search">Szukaj</string>
+    <string name="title_fragment_lines">Linie</string>
+    <string name="title_fragment_stops">Przystanki</string>
+    <string name="title_fragment_favs">Moje rozkłady</string>
+
+    <string name="main_nav_search">SZUKAJ</string>
+    <string name="main_nav_lines">LINIE</string>
+    <string name="main_nav_stops">PRZYSTANKI</string>
+    <string name="main_nav_favs">ULUBIONE</string>
+
+    <string name="action_delete">Usuń</string>
+    <string name="action_map">Mapa</string>
+    <string name="action_info">O aplikacji</string>
+    <string name="action_change_stop">Zmień przystanek</string>
+    <string name="action_view_next_stops">Kolejne przystanki</string>
+    <string name="action_view_legend">Legenda</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="info_application_name_label">Nazwa aplikacji</string>
+    <string name="info_application_version_label">Aktualna wersja</string>
+    <string name="info_author_label">Autor</string>
+    <string name="info_author">pbmchc</string>
+    <string name="info_feedback_label">Feedback</string>
+    <string name="onboarding_ignore">Pomiń</string>
+    <string name="onboarding_finish">Zakończ</string>
+    <string name="onboarding_next">Dalej</string>
+    <string name="near_stops_stop_label">Przystanków: </string>
+    <string name="schedule_full_legend">Cała legenda: </string>
+    <string name="schedule_next_stops">Następne przystanki: </string>
+    <string name="schedule_show_full_line_label">Zobacz całą trasę</string>
+    <string name="schedule_dialog_title">Legenda: </string>
+    <string name="schedule_dialog_close">Zamknij</string>
+    <string name="schedule_no_departures_message">Brak odjazdów</string>
+    <string name="schedule_no_legend_message">brak dodatkowych informacji</string>
+    <string name="schedule_add_to_favs_message">Dodano do ulubionych</string>
+    <string name="schedule_remove_from_favs_message">Usunięto z ulubionych</string>
+    <string name="schedule_fav_info_message">Dodaj/usuń z ulubionych</string>
+    <string name="schedule_end_of_route_message">Koniec trasy</string>
+    <string name="favs_no_schedules_message">Brak rozkładów</string>
+    <string name="single_stop_no_departures_message">Brak odjazdów w najbliższym czasie</string>
+    <string name="single_stop_upcoming_departure_label">Odjazd za: </string>
+    <string name="find_lines_destination_label">Dokąd chcesz jechać?</string>
+    <string name="find_lines_destination_placeholder">Nazwa przystanku&#8230;</string>
+    <string name="find_lines_results_label">Dostępne połączenia: </string>
+    <string name="main_app_leave_message">Naciśnij ponownie aby wyjść</string>
+    <string name="single_stop_departures_title">ODJAZDY</string>
+    <string name="single_stop_lines_title">LINIE</string>
+    <string name="main_stops_fragment_fab_info">Mapa najbliższych przystanków</string>
+    <string name="recyclerview_section_title">LINIA </string>
+    <string name="location_services_error_toast_message">Włącz usługi lokalizacji</string>
+    <string name="location_services_no_permission_toast_message">Brak dostępu do informacji o lokalizacji</string>
+    <string name="location_services_snackbar_info">Twoja lokalizacja pozwoli uzyskać dane o najbliższych przystankach</string>
+    <string name="location_services_turn_on_label">WŁĄCZ</string>
+    <string name="favourites_remove_title">Usuwanie rozkładu</string>
+    <string name="favourites_remove_message">Na pewno chcesz usunąć wybrane rozkłady?</string>
+    <string name="favourites_remove_button_label">USUŃ</string>
+    <string name="favourites_cancel_button_label">ANULUJ</string>
+    <string name="single_stop_change_to_opposite">Zmieniono przystanek</string>
+    <string name="single_stop_no_opposite">Brak przeciwnego przystanku</string>
+
+    <string name="ellipsis">&#8230;</string>
+    <string name="colon">&#58;</string>
+    <string name="minutes_abbr">min</string>
+    <string name="placeholder">test</string>
+    <string name="placeholder_long">Wyszukaj przystanek lub połączenie,które pozwoli Ci dotrzeć do celu.</string>
+    <string name="internet_error">Brak Internetu</string>
+    <string name="server_error">Błąd serwera</string>
+    <string name="leaving_now">Odjazd</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pbmchc.emzetka.mzkandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <activity
+            android:name="com.pbmchc.emzetka.activities.SingleLineActivity"
+            android:label="@string/title_activity_single_line"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.pbmchc.emzetka.activities.ScheduleActivity"
+            android:label="@string/title_activity_schedule"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.pbmchc.emzetka.activities.SingleLineMapActivity"
+            android:label="@string/title_activity_single_line_map"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pbmchc.emzetka.activities.AboutActivity"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.pbmchc.emzetka.activities.ScheduleDialogActivity"
+            android:label="@string/schedule_dialog_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name="com.pbmchc.emzetka.activities.SingleStopActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_single_stop"/>
+        <activity
+            android:name="com.pbmchc.emzetka.activities.NearStopsMapActivity"
+            android:label="@string/title_activity_near_stops_map"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pbmchc.emzetka.activities.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pbmchc.emzetka.activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pbmchc.emzetka.activities.OnboardingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

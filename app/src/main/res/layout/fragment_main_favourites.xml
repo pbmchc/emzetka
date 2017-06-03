@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pbmchc.emzetka.fragments.MainFavouritesFragment"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/noFavsLayout">
+        <TextView
+            android:drawableTop="@drawable/emzetka_fav_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/noFavsMessage"
+            android:textAllCaps="true"
+            android:text="@string/favs_no_schedules_message"
+            android:alpha="0.4"
+            android:layout_gravity="center_horizontal|center_vertical"/>
+    </FrameLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/favRecyclerView">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

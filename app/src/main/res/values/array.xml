@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titles">
+        <item>Lokalizacja</item>
+        <item>Wyszukiwanie</item>
+        <item>Odliczanie</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>Z łatwością znajdź najbliższe przystanki w swojej okolicy.</item>
+        <item>Wyszukaj przystanek lub połączenie, które pozwoli Ci dotrzeć do celu.</item>
+        <item>Sprawdź czas pozostały do odjazdu najbliższych autobusów.</item>
+    </string-array>
+    <string-array name="images">
+        <item>onboarding_one</item>
+        <item>onboarding_two</item>
+        <item>onboarding_three</item>
+    </string-array>
+</resources>
